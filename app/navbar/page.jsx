@@ -17,7 +17,7 @@ export default function Navbar() {
         {/* Desktop Links */}
         <div className="hidden md:flex gap-6 text-sm font-semibold">
           <Link href="/" className="hover:text-white transition">Home</Link>
-          <Link href="app/about/page.js" className="hover:text-white transition">About</Link>
+          <Link href="/about" className="hover:text-white transition">About</Link>
           <Link href="/courses" className="hover:text-white transition">Courses</Link>
           <Link href="/contact" className="hover:text-white transition">Contact</Link>
           <Link href="/login" className="hover:text-white transition">Login</Link>
